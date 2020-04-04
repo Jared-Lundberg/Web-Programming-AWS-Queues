@@ -16,7 +16,7 @@ namespace Kuscotopia.Services
         private BasicAWSCredentials credentials;
         private AmazonSQSClient amazonSQSClient;
 
-        private static string QueueUrl = "https://sqs.us-east-2.amazonaws.com/619273675501/WebProject8";
+        private static string QueueUrl = "queueURL";
 
         private MessageEntity messageEntity;
 
@@ -24,7 +24,7 @@ namespace Kuscotopia.Services
 
         public QueueService(MessageEntity messageEntity, Random rnd)
         {
-            credentials = new BasicAWSCredentials("AKIAIKVQOGATY7ME2NZQ", "ooNovy5whj2Kt/nyyKbwChSqYZAJ7cWEPM6WVOTF");
+            credentials = new BasicAWSCredentials("Credentials", "Credentials");
             amazonSQSClient = new AmazonSQSClient(credentials, RegionEndpoint.USEast2);
             this.rnd = rnd;
             this.messageEntity = messageEntity;

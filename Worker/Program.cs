@@ -14,13 +14,13 @@ namespace Worker
         private static BasicAWSCredentials credentials;
         private static AmazonSQSClient amazonSQSClient;
 
-        private static string QueueUrl = "https://sqs.us-east-2.amazonaws.com/619273675501/WebProject8";
+        private static string QueueUrl = "QueueURL";
 
         static void Main(string[] args)
         {
             Console.WriteLine("Starting to read messages...");
 
-            credentials = new BasicAWSCredentials("AKIAIKVQOGATY7ME2NZQ", "ooNovy5whj2Kt/nyyKbwChSqYZAJ7cWEPM6WVOTF");
+            credentials = new BasicAWSCredentials("credentials", "credentials");
             amazonSQSClient = new AmazonSQSClient(credentials, RegionEndpoint.USEast2);
 
             ReadMessagesAsync().Wait();

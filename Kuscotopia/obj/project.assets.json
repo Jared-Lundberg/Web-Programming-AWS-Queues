@@ -12195,11 +12195,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Jared/Web Programming/Web-Programming-FA2019/Lectures/10-24-2019 Queues 2/Kuscotopia/Kuscotopia/Kuscotopia.csproj",
+      "projectUniqueName": "/Users/Jared/Desktop/Assignment8-4/Kuscotopia/Kuscotopia.csproj",
       "projectName": "Kuscotopia",
-      "projectPath": "/Users/Jared/Web Programming/Web-Programming-FA2019/Lectures/10-24-2019 Queues 2/Kuscotopia/Kuscotopia/Kuscotopia.csproj",
+      "projectPath": "/Users/Jared/Desktop/Assignment8-4/Kuscotopia/Kuscotopia.csproj",
       "packagesPath": "/Users/Jared/.nuget/packages/",
-      "outputPath": "/Users/Jared/Web Programming/Web-Programming-FA2019/Lectures/10-24-2019 Queues 2/Kuscotopia/Kuscotopia/obj/",
+      "outputPath": "/Users/Jared/Desktop/Assignment8-4/Kuscotopia/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

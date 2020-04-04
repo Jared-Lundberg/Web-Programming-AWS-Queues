@@ -12194,11 +12194,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Jared/Web Programming/Web-Programming-FA2019/Lectures/10-24-2019 Queues 2/Kuscotopia/Worker/Worker.csproj",
+      "projectUniqueName": "/Users/Jared/Desktop/Assignment8-4/Worker/Worker.csproj",
       "projectName": "Worker",
-      "projectPath": "/Users/Jared/Web Programming/Web-Programming-FA2019/Lectures/10-24-2019 Queues 2/Kuscotopia/Worker/Worker.csproj",
+      "projectPath": "/Users/Jared/Desktop/Assignment8-4/Worker/Worker.csproj",
       "packagesPath": "/Users/Jared/.nuget/packages/",
-      "outputPath": "/Users/Jared/Web Programming/Web-Programming-FA2019/Lectures/10-24-2019 Queues 2/Kuscotopia/Worker/obj/",
+      "outputPath": "/Users/Jared/Desktop/Assignment8-4/Worker/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
