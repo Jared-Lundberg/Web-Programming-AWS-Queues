@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Jared/Web Programming/Web-Programming-FA2019/Lectures/10-24-2019 Queues 2/Kuscotopia/Worker/Worker.csproj": {}
+  },
+  "projects": {
+    "/Users/Jared/Web Programming/Web-Programming-FA2019/Lectures/10-24-2019 Queues 2/Kuscotopia/Worker/Worker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Jared/Web Programming/Web-Programming-FA2019/Lectures/10-24-2019 Queues 2/Kuscotopia/Worker/Worker.csproj",
+        "projectName": "Worker",
+        "projectPath": "/Users/Jared/Web Programming/Web-Programming-FA2019/Lectures/10-24-2019 Queues 2/Kuscotopia/Worker/Worker.csproj",
+        "packagesPath": "/Users/Jared/.nuget/packages/",
+        "outputPath": "/Users/Jared/Web Programming/Web-Programming-FA2019/Lectures/10-24-2019 Queues 2/Kuscotopia/Worker/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Jared/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AWSSDK.SQS": {
+              "target": "Package",
+              "version": "[3.3.102.19, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
